@@ -1,4 +1,6 @@
-# live-crypto
+# LiveCrypto
+## Cryptocurrencies in one place
+### Find your favourite crypto!
 
 ## Project setup
 ```
