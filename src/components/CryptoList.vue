@@ -1,3 +1,4 @@
+/* eslint-disable */
 <template>
   <h2 v-if="newCoins.length == 0">No currency found.</h2>
 

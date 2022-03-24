@@ -1,3 +1,4 @@
+/* eslint-disable */
 <template>
   <div class="hero">
     <div class="container">
