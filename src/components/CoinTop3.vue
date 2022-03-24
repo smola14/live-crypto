@@ -1,4 +1,3 @@
-/* eslint-disable */
 <template>
   <div class="wrapper">
     <h3><span>Top 3 by price</span></h3>

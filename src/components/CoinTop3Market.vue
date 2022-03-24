@@ -1,4 +1,3 @@
-/* eslint-disable */
 <template>
   <div class="wrapper">
     <h3><span>Top 3 by % change in 24H</span></h3>

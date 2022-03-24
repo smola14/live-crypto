@@ -1,4 +1,3 @@
-/* eslint-disable */
 <template>
   <form>
     <search-icon size="1.5x" class="icon search-icon" />
