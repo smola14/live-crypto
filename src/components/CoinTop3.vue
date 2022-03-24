@@ -60,4 +60,10 @@ ul {
     margin: 0;
   }
 }
+
+@media (max-width: 991.98px) {
+  h3 {
+    line-height: em(27);
+  }
+}
 </style>

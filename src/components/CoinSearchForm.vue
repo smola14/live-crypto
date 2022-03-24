@@ -68,7 +68,7 @@ export default {
 <style lang="scss" scoped>
 @import '@/style/style.scss';
 form {
-  width: 25%;
+  width: em(400);
   display: flex;
   margin-left: auto;
   margin-right: auto;

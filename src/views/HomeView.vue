@@ -2,14 +2,14 @@
   <div class="hero">
     <div class="container">
       <div class="row">
-        <div class="col">
+        <div class="col-6 col-lg-4 order-2 order-lg-1 top3">
           <CoinTop3 />
         </div>
-        <div class="col">
+        <div class="col-12 col-lg-4 order-1 order-lg-2 title">
           <h1><span>Live</span><span>Crypto</span></h1>
           <h2>Cryptocurrencies in one place</h2>
         </div>
-        <div class="col">
+        <div class="col-6 col-lg-4 order-2 order-lg-3 top3">
           <CoinTop3Market />
         </div>
       </div>
@@ -98,5 +98,15 @@ svg {
 p {
   background-color: lighten($color-background, 3%);
   text-transform: uppercase;
+}
+
+@media (max-width: 991.98px) {
+  .title {
+    margin-bottom: em(20);
+  }
+
+  .top3 {
+    line-height: em(27);
+  }
 }
 </style>
