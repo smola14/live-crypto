@@ -1,0 +1,131 @@
+//
+//HEADER
+//----------------------------------------------------------------
+
+// header {
+//   margin: 1em;
+//   display: flex;
+//   justify-content: space-between;
+
+//   .menu {
+//     position: relative;
+//     top: 0;
+//     font-size: em(30);
+//     cursor: pointer;
+//   }
+
+//   li {
+//     white-space: nowrap;
+//   }
+// }
+
+// nav {
+//   position: fixed;
+//   left: 0;
+//   top: 0;
+//   height: 100vh;
+//   background: darken($color-secondary, 2.5);
+//   text-align: center;
+//   width: 50%;
+//   z-index: 2;
+//   text-transform: uppercase;
+//   transform: translateX(-100%);
+//   transition: transform 0.5s ease-in-out;
+//   ul {
+//     list-style-type: none;
+//     padding: 0;
+//     margin-top: 50%;
+
+//     a {
+//       color: black;
+//       padding: 0.75em 1.2em !important;
+//       display: block;
+
+//       color: $color-white;
+//       text-shadow: 1px 1px transparentize($color-primary, 0.5);
+
+//       &:hover,
+//       &:active {
+//         color: $color-primary;
+//       }
+//     }
+//   }
+// }
+
+// .active {
+//   color: $color-primary !important;
+// }
+
+// .close {
+//   margin: em(10) em(15);
+//   float: left;
+//   cursor: pointer;
+//   font-size: em(30);
+// }
+
+// @media (max-width: 991.98px) {
+//   .languages {
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     margin: em(25) em(10) 0 0;
+//   }
+// }
+
+// @media only screen and (min-width: 920px) {
+//   .menu {
+//     display: none !important;
+//   }
+
+//   nav {
+//     transform: translateX(0);
+//     position: fixed;
+//     background: none;
+//     width: auto;
+//     height: auto;
+//     left: 50%;
+//     transform: translate(-50%, 0);
+//     border-bottom-left-radius: 25px;
+//     border-bottom-right-radius: 25px;
+//     font-size: em(18);
+//     padding: 0 em(50);
+//     box-shadow: none;
+
+//     .close {
+//       display: none;
+//     }
+
+//     ul {
+//       display: flex;
+//       margin: 0;
+//       margin-top: em(3);
+//     }
+//   }
+// }
+
+// .open-nav {
+//   transform: translateX(0%);
+//   box-shadow: 8px 0 5px 2px darken($color-secondary, 2.2);
+// }
+
+// .nav-active {
+//   background-color: $color-secondary;
+//   transition: all 0.5s;
+//   -webkit-box-shadow: 0px 3px 15px 3px #000000;
+//   box-shadow: 0px 3px 15px 3px #000000;
+// }
+
+// .nav-noactive {
+//   background-color: none;
+//   transition: all 0.5s;
+// }
+
+// .languages {
+//   a {
+//     color: $color-white !important;
+
+//     &:hover {
+//       color: $color-primary !important;
+//     }
+//   }
+// }

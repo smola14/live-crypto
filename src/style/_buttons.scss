@@ -1,0 +1,29 @@
+//
+//BUTTONS
+//----------------------------------------------------------------
+
+.btn-primary {
+  &:active,
+  &:visited,
+  &:focus {
+  }
+
+  &:hover {
+  }
+
+  &:not(hover) {
+  }
+}
+
+.btn-secondary {
+  &:active,
+  &:visited,
+  &:focus {
+  }
+
+  &:hover {
+  }
+
+  &:not(hover) {
+  }
+}

@@ -1,0 +1,51 @@
+//
+//FOOTER
+//----------------------------------------------------------------
+
+.prechod {
+  path {
+    fill: lighten($color-secondary, 5%);
+  }
+  width: 100%;
+  margin-bottom: em(-2);
+}
+
+footer {
+  background-color: lighten($color-secondary, 5%);
+  font-size: em(20);
+
+  h2 {
+    line-height: em(27);
+  }
+
+  .copyright {
+    padding: em(15) 0 em(5);
+    text-align: center;
+    font-size: em(18, 17);
+  }
+
+  p {
+    font-size: em(18, 20);
+  }
+
+  h5 {
+    text-shadow: 1px 1px transparentize($color-primary, 0.2);
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 991.98px) {
+  footer {
+  }
+  .social-media {
+  }
+}
+
+@media (max-width: 767.98px) {
+  footer {
+    h2 {
+    }
+    span {
+    }
+  }
+}
